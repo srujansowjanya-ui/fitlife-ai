@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "p1",
+    "userId": "mock_user_1",
+    "userName": "Alex Johnson",
+    "userAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80",
+    "content": "Just smashed my 5k run personal record! Feeling incredible. Consistency is key! 🏃‍♂️💪",
+    "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=600&q=80",
+    "likes": [
+      "mock_user_2"
+    ],
+    "comments": [
+      {
+        "_id": "comment1",
+        "userId": "mock_user_2",
+        "userName": "Sarah Miller",
+        "content": "Amazing job Alex! Keep pushing!",
+        "createdAt": "2026-05-21T09:58:19.726Z"
+      }
+    ],
+    "createdAt": "2026-05-21T08:58:19.727Z"
+  },
+  {
+    "_id": "p2",
+    "userId": "mock_user_2",
+    "userName": "Sarah Miller",
+    "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
+    "content": "Tried the Morning Yoga Flow today. Perfect way to start a stressful workday. Highly recommend it! 🧘‍♀️✨",
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=600&q=80",
+    "likes": [],
+    "comments": [],
+    "createdAt": "2026-05-20T10:58:19.727Z"
+  }
+]

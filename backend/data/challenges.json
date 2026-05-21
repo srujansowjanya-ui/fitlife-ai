@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "c1",
+    "title": "7-Day Water Hydration Challenge",
+    "description": "Drink at least 2.5L of water every day for 7 days to flush out toxins and increase energy.",
+    "xpReward": 150,
+    "durationDays": 7,
+    "category": "Water"
+  },
+  {
+    "_id": "c2",
+    "title": "Cardio Crusher Sprint",
+    "description": "Complete 3 Cardio or HIIT workouts in 5 days to jumpstart your metabolic burn.",
+    "xpReward": 250,
+    "durationDays": 5,
+    "category": "Workout"
+  },
+  {
+    "_id": "c3",
+    "title": "Deep Sleep Streak",
+    "description": "Log 7+ hours of sleep for 5 consecutive nights to optimize muscle recovery and hormone levels.",
+    "xpReward": 200,
+    "durationDays": 5,
+    "category": "Sleep"
+  }
+]

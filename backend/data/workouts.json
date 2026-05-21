@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "w1",
+    "title": "Full Body Home Blast",
+    "category": "Home workouts",
+    "difficulty": "Beginner",
+    "duration": 15,
+    "caloriesBurned": 150,
+    "targetMuscles": [
+      "Full Body",
+      "Abs",
+      "Glutes"
+    ],
+    "exercises": [
+      "ex2",
+      "ex1",
+      "ex3",
+      "ex4"
+    ],
+    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=600&q=80",
+    "description": "A quick bodyweight workout designed to burn fat and build strength at home without any equipment."
+  },
+  {
+    "_id": "w2",
+    "title": "Intermediate Strength Session",
+    "category": "Strength training",
+    "difficulty": "Intermediate",
+    "duration": 25,
+    "caloriesBurned": 220,
+    "targetMuscles": [
+      "Chest",
+      "Biceps",
+      "Shoulders"
+    ],
+    "exercises": [
+      "ex1",
+      "ex5",
+      "ex3"
+    ],
+    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=600&q=80",
+    "description": "A classic weight-training session targeting upper body strength, conditioning, and muscle growth."
+  },
+  {
+    "_id": "w3",
+    "title": "HIIT High Intensity Cardio",
+    "category": "HIIT",
+    "difficulty": "Advanced",
+    "duration": 20,
+    "caloriesBurned": 300,
+    "targetMuscles": [
+      "Heart",
+      "Full Body"
+    ],
+    "exercises": [
+      "ex4",
+      "ex7",
+      "ex2",
+      "ex7"
+    ],
+    "image": "https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?auto=format&fit=crop&w=600&q=80",
+    "description": "Tabata-style intervals of burpees, jumping jacks, and squats to maximize calorie burn and metabolic rate."
+  },
+  {
+    "_id": "w4",
+    "title": "Morning Yoga Flow",
+    "category": "Yoga",
+    "difficulty": "Beginner",
+    "duration": 15,
+    "caloriesBurned": 60,
+    "targetMuscles": [
+      "Hamstrings",
+      "Back",
+      "Mind"
+    ],
+    "exercises": [
+      "ex6",
+      "ex3"
+    ],
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=600&q=80",
+    "description": "Start your morning with a series of gentle stretching, mindfulness, and breathing exercises."
+  }
+]

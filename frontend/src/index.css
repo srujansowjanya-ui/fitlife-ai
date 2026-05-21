@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-darkBg text-gray-100 font-sans;
+    background-image: 
+      radial-gradient(circle at 10% 20%, rgba(99, 102, 241, 0.05) 0%, transparent 40%),
+      radial-gradient(circle at 90% 80%, rgba(16, 185, 129, 0.05) 0%, transparent 40%);
+    background-attachment: fixed;
+  }
+}
+
+@layer components {
+  /* Premium Glassmorphism Card Style */
+  .glass-card {
+    @apply bg-[#151c2c]/65 backdrop-blur-md border border-white/[0.06] shadow-glass rounded-2xl;
+  }
+  
+  .glass-card-hover {
+    @apply hover:border-white/[0.12] hover:bg-[#151c2c]/85 transition-all duration-300;
+  }
+
+  .glow-green-hover {
+    @apply hover:shadow-glowGreen hover:border-brandGreen/30 transition-all duration-300;
+  }
+
+  .glow-indigo-hover {
+    @apply hover:shadow-glowIndigo hover:border-brandIndigo/30 transition-all duration-300;
+  }
+
+  /* Custom inputs for forms */
+  .form-input {
+    @apply bg-slate-900/60 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-brandGreen transition-colors w-full backdrop-blur-sm;
+  }
+
+  .btn-primary {
+    @apply bg-brandGreen hover:bg-brandGreen-dark text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 flex items-center justify-center gap-2 active:scale-[0.98] shadow-md hover:shadow-glowGreen;
+  }
+
+  .btn-secondary {
+    @apply bg-white/5 hover:bg-white/10 border border-white/10 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 flex items-center justify-center gap-2 active:scale-[0.98];
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0f19;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Progress circle dashboard styles */
+.progress-ring-circle {
+  transition: stroke-dashoffset 0.35s;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}

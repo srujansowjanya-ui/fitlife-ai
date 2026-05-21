@@ -1,0 +1,118 @@
+[
+  {
+    "_id": "ex1",
+    "name": "Push-Ups",
+    "category": "Strength training",
+    "difficulty": "Beginner",
+    "targetMuscles": [
+      "Chest",
+      "Triceps",
+      "Shoulders"
+    ],
+    "duration": "30s",
+    "sets": 3,
+    "reps": 12,
+    "caloriesBurned": 15,
+    "instructions": "Start in a plank position. Lower your body until your chest nearly touches the floor. Push yourself back up.",
+    "image": "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "_id": "ex2",
+    "name": "Bodyweight Squats",
+    "category": "Home workouts",
+    "difficulty": "Beginner",
+    "targetMuscles": [
+      "Quads",
+      "Hamstrings",
+      "Glutes"
+    ],
+    "duration": "45s",
+    "sets": 3,
+    "reps": 15,
+    "caloriesBurned": 20,
+    "instructions": "Stand with feet shoulder-width apart. Lower your hips back and down as if sitting in a chair. Keep chest up and knees behind toes.",
+    "image": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "_id": "ex3",
+    "name": "Plank Hold",
+    "category": "Core",
+    "difficulty": "Intermediate",
+    "targetMuscles": [
+      "Abs",
+      "Lower Back",
+      "Shoulders"
+    ],
+    "duration": "60s",
+    "sets": 3,
+    "reps": 1,
+    "caloriesBurned": 10,
+    "instructions": "Keep body in a straight line from head to heels, resting on forearms and toes. Keep core engaged and do not let hips sag.",
+    "image": "https://images.unsplash.com/photo-1566241477600-ac026ad43874?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "_id": "ex4",
+    "name": "Jumping Jacks",
+    "category": "Cardio",
+    "difficulty": "Beginner",
+    "targetMuscles": [
+      "Full Body",
+      "Heart"
+    ],
+    "duration": "45s",
+    "sets": 3,
+    "reps": 30,
+    "caloriesBurned": 25,
+    "instructions": "Jump feet out to the sides while raising arms overhead. Jump back to starting position and repeat at a fast pace.",
+    "image": "https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "_id": "ex5",
+    "name": "Dumbbell Bicep Curls",
+    "category": "Strength training",
+    "difficulty": "Intermediate",
+    "targetMuscles": [
+      "Biceps",
+      "Forearms"
+    ],
+    "duration": "40s",
+    "sets": 4,
+    "reps": 12,
+    "caloriesBurned": 18,
+    "instructions": "Hold dumbbells at sides with palms facing forward. Keep elbows close to torso and curl weights while contracting biceps.",
+    "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "_id": "ex6",
+    "name": "Downward-Facing Dog",
+    "category": "Yoga",
+    "difficulty": "Beginner",
+    "targetMuscles": [
+      "Hamstrings",
+      "Calves",
+      "Shoulders"
+    ],
+    "duration": "60s",
+    "sets": 2,
+    "reps": 1,
+    "caloriesBurned": 8,
+    "instructions": "From hands and knees, lift hips up and back to form an inverted V shape. Press heels toward the mat.",
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    "_id": "ex7",
+    "name": "Burpees",
+    "category": "HIIT",
+    "difficulty": "Advanced",
+    "targetMuscles": [
+      "Full Body",
+      "Cardio"
+    ],
+    "duration": "45s",
+    "sets": 4,
+    "reps": 10,
+    "caloriesBurned": 35,
+    "instructions": "Drop into a squat, kick feet back to plank, do a pushup, jump feet forward, and explosively jump straight up.",
+    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=300&q=80"
+  }
+]
