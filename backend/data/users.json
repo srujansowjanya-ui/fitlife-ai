@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "_id": "5q646z9",
+    "createdAt": "2026-05-22T17:52:43.913Z",
+    "name": "fidgf",
+    "email": "dfgs@vv",
+    "password": "$2a$10$mx2SEaBuZJCHGodBiqGywOyEIyBWVYfsKmhKonguI5h0DL1C.kemi",
+    "xp": 0,
+    "level": 1,
+    "badges": [
+      "First Step"
+    ],
+    "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=fidgf",
+    "joinedChallenges": []
+  }
+]

@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "_id": "jj6z0dp",
+    "createdAt": "2026-05-22T17:52:43.914Z",
+    "userId": "5q646z9",
+    "title": "Welcome to FitLife AI!",
+    "message": "Hi there! We are excited to support you on your wellness journey. Build routines and win badges!",
+    "type": "info"
+  }
+]
