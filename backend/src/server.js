@@ -20,9 +20,9 @@ const app = express();
 
 // Middleware Setup
 app.use(cors({
-  origin: '*', // Allow all for demo purposes, can configure to frontend URL in prod
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: ['Content-Type', 'Authorization']
+    origin: '*', // Allow all for demo purposes, can configure to frontend URL in prod
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization']
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -32,12 +32,12 @@ app.use('/api', apiLimiter);
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
-  res.status(200).json({
-    success: true,
-    message: 'FitLife AI API Server is running smoothly',
-    timestamp: new Date().toISOString(),
-    databaseMode: global.isMockDatabase ? 'File Mock Database' : 'MongoDB Connection'
-  });
+    res.status(200).json({
+        success: true,
+        message: 'FitLife AI API Server is running smoothly',
+        timestamp: new Date().toISOString(),
+        databaseMode: global.isMockDatabase ? 'File Mock Database' : 'MongoDB Connection'
+    });
 });
 
 // Register Routes
@@ -55,14 +55,17 @@ app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
 
-const startServer = async () => {
-  // Try connecting to database
-  await connectDB();
+const startServer = async() => {
+    // Try connecting to database
+    await connectDB();
 
-  app.listen(PORT, () => {
-    console.log(`🚀 [Server] Running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`);
-    console.log(`🔗 [Health] Check api status at http://localhost:${PORT}/api/health`);
-  });
+    app.listen(PORT, () => {
+        console.log(`🚀 [Server] Running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`);
+        console.log(`🔗 [Health] Check api status at http://localhost:${PORT}/api/health`);
+    });
 };
 
 startServer();
+app.get('/', (req, res) => {
+    res.send('FitLife AI Backend Running 🚀');
+});
