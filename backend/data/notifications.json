@@ -6,5 +6,13 @@
     "title": "Welcome to FitLife AI!",
     "message": "Hi there! We are excited to support you on your wellness journey. Build routines and win badges!",
     "type": "info"
+  },
+  {
+    "_id": "4riykhp",
+    "createdAt": "2026-05-23T04:58:49.457Z",
+    "userId": "gyxfy57",
+    "title": "Google Account Connected",
+    "message": "Successfully linked your Google profile to FitLife AI.",
+    "type": "info"
   }
 ]
