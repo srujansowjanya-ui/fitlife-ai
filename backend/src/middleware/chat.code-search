@@ -1,0 +1,59 @@
+# Query: chat
+# ContextLines: 1
+
+16 results - 5 files
+
+fitlife-ai\backend\src\controllers\aiController.js:
+  145  
+  146: export const handleAIChat = async (req, res) => {
+  147    const { message } = req.body;
+
+fitlife-ai\backend\src\routes\aiRoutes.js:
+  1  import express from 'express';
+  2: import { getAIRecommendations, handleAIChat } from '../controllers/aiController.js';
+  3  import { protect } from '../middleware/authMiddleware.js';
+
+  7  router.get('/recommendations', protect, getAIRecommendations);
+  8: router.post('/chat', protect, handleAIChat);
+  9  
+
+fitlife-ai\frontend\src\App.jsx:
+   8  import Sidebar from './components/Sidebar';
+   9: import AIChatbot from './components/AIChatbot';
+  10  
+
+  44        </div>
+  45:       {user && <AIChatbot />}
+  46      </div>
+
+fitlife-ai\frontend\src\components\AIChatbot.jsx:
+    5  
+    6: export default function AIChatbot() {
+    7    const { token } = useContext(AuthContext);
+
+   17  
+   18:   const chatEndRef = useRef(null);
+   19  
+   20    useEffect(() => {
+   21:     if (chatEndRef.current) {
+   22:       chatEndRef.current.scrollIntoView({ behavior: 'smooth' });
+   23      }
+
+   36  
+   37:     // Trigger local NLP or api chat
+   38      try {
+   39:       const response = await fetch('/api/ai/chat', {
+   40          method: 'POST',
+
+   59      } catch (err) {
+   60:       console.warn('Backend chat offline, generating local simulation reply...');
+   61        // Local simulated response fallback
+
+  225  
+  226:             <div ref={chatEndRef} />
+  227            </div>
+
+fitlife-ai\frontend\src\pages\LandingPage.jsx:
+  227                    <li className="flex items-center gap-2">
+  228:                     <Check size={14} className="text-brandGreen" /> Interactive floating AI Assistant Chatbot
+  229                    </li>
