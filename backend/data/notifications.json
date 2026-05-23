@@ -14,5 +14,21 @@
     "title": "Google Account Connected",
     "message": "Successfully linked your Google profile to FitLife AI.",
     "type": "info"
+  },
+  {
+    "_id": "ht2cl2h",
+    "createdAt": "2026-05-23T05:19:47.404Z",
+    "userId": "rgw3t7w",
+    "title": "Welcome to FitLife AI!",
+    "message": "Hi there! We are excited to support you on your wellness journey. Build routines and win badges!",
+    "type": "info"
+  },
+  {
+    "_id": "6jfenag",
+    "createdAt": "2026-05-23T05:21:41.856Z",
+    "userId": "rgw3t7w",
+    "title": "Joined Challenge! 🏆",
+    "message": "You started \"7-Day Water Hydration Challenge\". Complete goals daily to earn 150 XP!",
+    "type": "challenge"
   }
 ]

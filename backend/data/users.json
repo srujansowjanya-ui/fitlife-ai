@@ -26,5 +26,21 @@
       "Google Connect"
     ],
     "joinedChallenges": []
+  },
+  {
+    "_id": "rgw3t7w",
+    "createdAt": "2026-05-23T05:19:47.396Z",
+    "name": "thejas",
+    "email": "tejas@gmail.com",
+    "password": "$2a$10$vp1Qp9Aunnv0jEdfzKZlhOU6Q0q0aulbDgZFKqRtcEfHhp.HnkTl2",
+    "xp": 20,
+    "level": 1,
+    "badges": [
+      "First Step"
+    ],
+    "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=thejas",
+    "joinedChallenges": [
+      "c1"
+    ]
   }
 ]
